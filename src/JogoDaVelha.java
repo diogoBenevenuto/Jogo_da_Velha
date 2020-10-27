@@ -51,6 +51,10 @@ public class JogoDaVelha extends JFrame {
 			blocos[i] = bloco;
 			pTela.add(bloco);
 		}
+		
+		pTela.revalidate();
+		pTela.repaint();
+		
 	}
 
 	public void mudarVez () {
